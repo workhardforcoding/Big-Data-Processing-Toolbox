@@ -67,7 +67,7 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  `docker tag jupyter/base-notebook gcr.io/big-data-processing-tool-box/jupyter/base-notebook`
  `docker push gcr.io/big-data-processing-tool-box/jupyter/base-notebook`
  ![image](https://user-images.githubusercontent.com/89753601/143789133-427f9acb-a1e6-483c-a910-acdf83d998fb.png)
- ![image](https://user-images.githubusercontent.com/89753601/143791122-27ea652a-bc4f-4261-9405-60e6eeedc0e9.png)
+ ![image](https://user-images.githubusercontent.com/89753601/143791142-56bbb54f-29c9-446a-a82a-90e10260c49c.png)
 
 -create service: expose IP
  
