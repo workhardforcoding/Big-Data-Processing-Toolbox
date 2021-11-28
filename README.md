@@ -1,4 +1,7 @@
 # Big-Data-Processing-Toolbox
+## Link to video demo and code walkthrough: 14848_demo video
+https://www.youtube.com/channel/UCLd6VMGLnjg_cTwzjIvN4gg
+
 ## Step 1: Create all docker images and containers, and test it locally.
 ### 1. Apache Spark
 - Docker image: https://hub.docker.com/r/bitnami/spark
@@ -27,10 +30,12 @@
 - Command: `docker pull --platform linux/amd64 bde2020/hadoop-namenode:latest`
            `docker run --platform linux/amd64 bde2020/hadoop-namenode:latest `
 ![image](https://user-images.githubusercontent.com/89753601/142857301-27522e4e-6ce8-47ac-a0db-6af5ac841135.png)
-- Docker image for master node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
+- Docker image for data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
 - Command: `docker pull --platform linux/amd64 bde2020/hadoop-datanode:latest`
            `docker run --platform linux/amd64 bde2020/hadoop-datanode:latest`
  ![image](https://user-images.githubusercontent.com/89753601/142858766-5c0b7d44-a12a-48b5-859c-bf54b490f7d3.png)
+ 
+ 
 
        
 
