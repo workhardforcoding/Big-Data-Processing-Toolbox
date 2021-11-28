@@ -46,6 +46,32 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
            `docker run --platform linux/amd64 bde2020/hadoop-datanode:latest`
  ![image](https://user-images.githubusercontent.com/89753601/142858766-5c0b7d44-a12a-48b5-859c-bf54b490f7d3.png)
  
+### 5. Terminal Application
+- Docker image:
+- Command: 
+ 
+ 
+ ## Step 2: Cluster Intial Setup
+ ![image](https://user-images.githubusercontent.com/89753601/143787874-cbf51760-f255-42e5-a1e9-bd92275a9fce.png)
+
+ ## Step 3: Deploy Apache Spark and Jupyter Notebook
+ docker pull bitnami/spark
+ docker tag bitnami/spark gcr.io/big-data-processing-tool-box/bitnami/spark
+ docker push gcr.io/big-data-processing-tool-box/bitnami/spark
+ ![image](https://user-images.githubusercontent.com/89753601/143789031-c6c55b79-d378-40a8-bd79-6f8e8e96b1e0.png)
+![image](https://user-images.githubusercontent.com/89753601/143789112-1c59b355-a5e1-4a98-ae11-4fbf1ad010bd.png)
+
+ 
+ docker pull jupyter/base-notebook
+ docker tag jupyter/base-notebook gcr.io/big-data-processing-tool-box/jupyter/base-notebook
+ docker push gcr.io/big-data-processing-tool-box/jupyter/base-notebook
+ ![image](https://user-images.githubusercontent.com/89753601/143789133-427f9acb-a1e6-483c-a910-acdf83d998fb.png)
+![image](https://user-images.githubusercontent.com/89753601/143789210-0bcfb74d-bab5-41d7-983b-68fa444004c2.png)
+
+ 
+ 
+ 
+ 
  
 
        
