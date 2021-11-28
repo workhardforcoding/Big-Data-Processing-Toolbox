@@ -55,21 +55,24 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  ![image](https://user-images.githubusercontent.com/89753601/143787874-cbf51760-f255-42e5-a1e9-bd92275a9fce.png)
 
  ## Step 3: Deploy Apache Spark and Jupyter Notebook
- 
+ -deployment:
  `docker pull bitnami/spark`
  `docker tag bitnami/spark gcr.io/big-data-processing-tool-box/bitnami/spark`
  `docker push gcr.io/big-data-processing-tool-box/bitnami/spark`
+ -create service, expose, and set IP port 8080:7077
  ![image](https://user-images.githubusercontent.com/89753601/143789031-c6c55b79-d378-40a8-bd79-6f8e8e96b1e0.png)
 ![image](https://user-images.githubusercontent.com/89753601/143789112-1c59b355-a5e1-4a98-ae11-4fbf1ad010bd.png)
 
- 
+ -deployment:
  `docker pull jupyter/base-notebook`
  `docker tag jupyter/base-notebook gcr.io/big-data-processing-tool-box/jupyter/base-notebook`
  `docker push gcr.io/big-data-processing-tool-box/jupyter/base-notebook`
+ -create service, expose, and set IP port 8888:8888
  ![image](https://user-images.githubusercontent.com/89753601/143789133-427f9acb-a1e6-483c-a910-acdf83d998fb.png)
  ![image](https://user-images.githubusercontent.com/89753601/143791142-56bbb54f-29c9-446a-a82a-90e10260c49c.png)
-
--create service: expose IP
+ 
+ ## Step 4: Deploy Hadoop and Sonar Scanner
+ 
  
  
  
