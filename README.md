@@ -55,6 +55,7 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  ![image](https://user-images.githubusercontent.com/89753601/143787874-cbf51760-f255-42e5-a1e9-bd92275a9fce.png)
 
  ## Step 3: Deploy Apache Spark and Jupyter Notebook
+ 
  `docker pull bitnami/spark`
  `docker tag bitnami/spark gcr.io/big-data-processing-tool-box/bitnami/spark`
  `docker push gcr.io/big-data-processing-tool-box/bitnami/spark`
@@ -68,6 +69,7 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  ![image](https://user-images.githubusercontent.com/89753601/143789133-427f9acb-a1e6-483c-a910-acdf83d998fb.png)
 ![image](https://user-images.githubusercontent.com/89753601/143789210-0bcfb74d-bab5-41d7-983b-68fa444004c2.png)
 
+-create service: expose IP
  
  
  
