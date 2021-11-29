@@ -55,19 +55,19 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  ![image](https://user-images.githubusercontent.com/89753601/143787874-cbf51760-f255-42e5-a1e9-bd92275a9fce.png)
 
  ## Step 3: Deploy Apache Spark and Jupyter Notebook
- -deployment:
+ - deployment:
  `docker pull bitnami/spark`
  `docker tag bitnami/spark gcr.io/big-data-processing-tool-box/bitnami/spark`
  `docker push gcr.io/big-data-processing-tool-box/bitnami/spark`
- -create service, expose, and set IP port 8080:7077
+ - create service, expose, and set IP port 8080:7077
  ![image](https://user-images.githubusercontent.com/89753601/143789031-c6c55b79-d378-40a8-bd79-6f8e8e96b1e0.png)
 ![image](https://user-images.githubusercontent.com/89753601/143791382-e1991a7f-f5dc-490f-a3d8-521b1e81110a.png)
 
- -deployment:
+ - deployment:
  `docker pull jupyter/base-notebook`
  `docker tag jupyter/base-notebook gcr.io/big-data-processing-tool-box/jupyter/base-notebook`
  `docker push gcr.io/big-data-processing-tool-box/jupyter/base-notebook`
- -create service, expose, and set IP port 8888:8888
+ - create service, expose, and set IP port 8888:8888
  ![image](https://user-images.githubusercontent.com/89753601/143789133-427f9acb-a1e6-483c-a910-acdf83d998fb.png)
 ![image](https://user-images.githubusercontent.com/89753601/143791390-70003fac-5209-4d76-a768-d28323944d20.png)
  
