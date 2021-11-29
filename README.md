@@ -67,12 +67,23 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
 ![image](https://user-images.githubusercontent.com/89753601/143791390-70003fac-5209-4d76-a768-d28323944d20.png)
  
  ## Step 4: Deploy Hadoop and Sonar Scanner
- 
- 
- 
- 
- 
- 
+ - deployment:  
+ a. run command in cloud shell.  
+ `docker pull bde2020/hadoop-namenode`  
+ `docker tag bde2020/hadoop-namenode gcr.io/big-data-processing-tool-box/bde2020/hadoop-namenode`  
+ `docker push gcr.io/big-data-processing-tool-box/bde2020/hadoop-namenode`  
+  
+ `docker pull bde2020/hadoop-datanode`  
+ `docker tag bde2020/hadoop-datanode gcr.io/big-data-processing-tool-box/bde2020/hadoop-datanode`  
+ `docker push gcr.io/big-data-processing-tool-box/bde2020/hadoop-datanode`
+ ![image](https://user-images.githubusercontent.com/89753601/143793896-b67947a6-4800-4e14-bfaa-fd5fd9ece255.png)
+b. deploy namenode to GKE first.  
+add environmental virables: fill in 'CLUSTER_NAME=test' from docker-compose.yml and first 9 lines from hadoop.env. You can find those 2 files from Hadoop directory.   c. change the pods number from 3 into 1 in Yaml file of Kubernetes engine
+ ![image](https://user-images.githubusercontent.com/89753601/143795402-b3d93d2c-a1db-4c80-866d-39f70f364889.png)
+d. expose
+ ![image](https://user-images.githubusercontent.com/89753601/143795579-86982859-4791-46f5-ac34-f2cb66af19ba.png)
+![image](https://user-images.githubusercontent.com/89753601/143795736-8e85e284-553e-416e-b5d4-4ad552a0c9d3.png)
+
 
        
 
