@@ -2,16 +2,12 @@
 ## Link to video demo and code walkthrough: 14848_demo video
 https://www.youtube.com/channel/UCLd6VMGLnjg_cTwzjIvN4gg
 
-## Docker Images Used
-Apache Spark: https://hub.docker.com/r/bitnami/spark
-Jupyter Notebook: https://hub.docker.com/r/jupyter/base-notebook
-SonarQube and SonarScanner: 
-Apache Hadoop: master node: https://hub.docker.com/r/jupyter/base-notebook
-data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
-
-## Deploy Containers to Kubernetes
-
-## Deploy Kubernetes to GCP
+## Step 0: Find Suitable Docker Images
+- Apache Spark: https://hub.docker.com/r/bitnami/spark 
+- Jupyter Notebook: https://hub.docker.com/r/jupyter/base-notebook
+- SonarQube and SonarScanner: 
+- Apache Hadoop: master node: https://hub.docker.com/r/jupyter/base-notebook
+- data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
 
 ## Step 1: Create all docker images and containers, and test it locally.
 ### 1. Apache Spark
