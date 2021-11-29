@@ -9,6 +9,8 @@ https://www.youtube.com/channel/UCLd6VMGLnjg_cTwzjIvN4gg
 - Apache Hadoop:   
 master node: https://hub.docker.com/r/jupyter/base-notebook  
 data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags  
+- Terminal Application:  
+https://hub.docker.com/r/mingruoqu/toolbox_application
 
 ## Step 1: Create all docker images and containers, and test it locally.
 ### 1. Apache Spark
@@ -42,14 +44,15 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  ![image](https://user-images.githubusercontent.com/89753601/142858766-5c0b7d44-a12a-48b5-859c-bf54b490f7d3.png)
  
 ### 5. Terminal Application
-- Docker image:
-- Command: 
+- finish application.py
+- write the application.py in Dockerfile
+- Build own Docker Image, command: `docker pull --platform linux/amd64 bde2020/hadoop-datanode:latest`
  
  
  ## Step 2: Cluster Intial Setup
  ![image](https://user-images.githubusercontent.com/89753601/143787874-cbf51760-f255-42e5-a1e9-bd92275a9fce.png)
 
- ## Step 3: Deploy Apache Spark and Jupyter Notebook
+ ## Step 3: Deploy Apache Spark, Jupyter Notebook and Terminal
  - deployment:
  `docker pull bitnami/spark`
  `docker tag bitnami/spark gcr.io/big-data-processing-tool-box/bitnami/spark`
@@ -98,11 +101,16 @@ d. expose(no need to expose data-node)
 ### Deploy SonarCube
 `docker pull sonarqube`  
 `docker tag sonarqube gcr.io/big-data-processing-tool-box/sonarqube`  
-`docker push gcr.io/big-data-processing-tool-box/sonarqube`  
+`docker push gcr.io/big-data-processing-tool-box/sonarqube`
 
 ## Step 5: Run the Toolbox application on GCP
 `kubectl attach terminal-application -c terminal-application -i -te`    
 type different number to test
+
+![image](https://user-images.githubusercontent.com/89753601/143808788-f54efdc3-f63d-4bea-a7b7-990736389cfb.png)
+![image](https://user-images.githubusercontent.com/89753601/143808807-eea9dbbe-c9a7-4621-b1fd-91818a1a9dfe.png)
+![image](https://user-images.githubusercontent.com/89753601/143808824-e385f3d9-55b4-4778-9c7b-c7abe36ff661.png)
+![image](https://user-images.githubusercontent.com/89753601/143808846-2fae2720-e261-4434-9525-a8fabfd699e0.png)
 
 
        
