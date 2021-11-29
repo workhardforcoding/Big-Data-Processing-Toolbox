@@ -104,9 +104,8 @@ d. expose(no need to expose data-node)
 `docker push gcr.io/big-data-processing-tool-box/sonarqube`
 
 ## Step 5: Run the Toolbox application on GCP
-`kubectl attach terminal-application -c terminal-application -i -te`    
-type different number to test
-
+- Command: `kubectl attach terminal-application -c terminal-application -i -te`    
+- type different number to test, test results show as below
 ![image](https://user-images.githubusercontent.com/89753601/143808788-f54efdc3-f63d-4bea-a7b7-990736389cfb.png)
 ![image](https://user-images.githubusercontent.com/89753601/143808807-eea9dbbe-c9a7-4621-b1fd-91818a1a9dfe.png)
 ![image](https://user-images.githubusercontent.com/89753601/143808824-e385f3d9-55b4-4778-9c7b-c7abe36ff661.png)
