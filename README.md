@@ -96,7 +96,6 @@ d. expose(no need to expose data-node)
  ![image](https://user-images.githubusercontent.com/89753601/143795579-86982859-4791-46f5-ac34-f2cb66af19ba.png)
 
 ### Deploy SonarCube
-docker pull sonarqube
 `docker pull sonarqube`  
 `docker tag sonarqube gcr.io/big-data-processing-tool-box/sonarqube`  
 `docker push gcr.io/big-data-processing-tool-box/sonarqube`  
