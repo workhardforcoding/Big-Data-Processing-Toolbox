@@ -6,7 +6,7 @@ https://www.youtube.com/channel/UCLd6VMGLnjg_cTwzjIvN4gg
 - Apache Spark: https://hub.docker.com/r/bitnami/spark 
 - Jupyter Notebook: https://hub.docker.com/r/jupyter/base-notebook
 - SonarQube and SonarScanner: https://hub.docker.com/_/sonarqube?tab=description&page=3
-- Apache Hadoop: 
+- Apache Hadoop:   
 master node: https://hub.docker.com/r/jupyter/base-notebook  
 data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags  
 
