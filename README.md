@@ -59,7 +59,7 @@ data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
  `docker pull bitnami/spark`
  `docker tag bitnami/spark gcr.io/big-data-processing-tool-box/bitnami/spark`
  `docker push gcr.io/big-data-processing-tool-box/bitnami/spark`
- - create service, expose, and set IP port 8080:7077
+ - create service, expose, and set IP port 8080:8080
  ![image](https://user-images.githubusercontent.com/89753601/143789031-c6c55b79-d378-40a8-bd79-6f8e8e96b1e0.png)
 ![image](https://user-images.githubusercontent.com/89753601/143791382-e1991a7f-f5dc-490f-a3d8-521b1e81110a.png)
 
