@@ -5,9 +5,10 @@ https://www.youtube.com/channel/UCLd6VMGLnjg_cTwzjIvN4gg
 ## Step 0: Find Suitable Docker Images
 - Apache Spark: https://hub.docker.com/r/bitnami/spark 
 - Jupyter Notebook: https://hub.docker.com/r/jupyter/base-notebook
-- SonarQube and SonarScanner: 
-- Apache Hadoop: master node: https://hub.docker.com/r/jupyter/base-notebook
-- data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags
+- SonarQube and SonarScanner: https://hub.docker.com/_/sonarqube?tab=description&page=3
+- Apache Hadoop: 
+master node: https://hub.docker.com/r/jupyter/base-notebook  
+data node: https://hub.docker.com/r/bde2020/hadoop-datanode/tags  
 
 ## Step 1: Create all docker images and containers, and test it locally.
 ### 1. Apache Spark
@@ -29,8 +30,6 @@ https://www.youtube.com/channel/UCLd6VMGLnjg_cTwzjIvN4gg
         `docker run --platform linux/amd64 -p 9000:9000 sonarqube:lts-community `
 - No matching manifest for linux/arm64/v8 at first due to Mac M1 chip, so I add `--platform linux/amd64`. Then it works
 ![image](https://user-images.githubusercontent.com/89753601/142848762-7b97c9e6-fd22-43ec-b3f8-229eb6aa27f9.png)
-
-- SonarScanner docker image:
 
 ### 4. Apache Hadoop
 - Docker image for master node: https://hub.docker.com/r/jupyter/base-notebook
