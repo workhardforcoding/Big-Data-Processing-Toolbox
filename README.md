@@ -105,6 +105,7 @@ d. expose(no need to expose data-node)
 
 ## Step 5: Run the Toolbox application on GCP
 - Command: `kubectl attach terminal-application -c terminal-application -i -te`    
+![image](https://user-images.githubusercontent.com/89753601/144750654-b91a57d0-535d-4a36-94ca-bf81fb5108fa.png)  
 - type different number to test, test results show as below
 ![image](https://user-images.githubusercontent.com/89753601/143808788-f54efdc3-f63d-4bea-a7b7-990736389cfb.png)
 ![image](https://user-images.githubusercontent.com/89753601/143808807-eea9dbbe-c9a7-4621-b1fd-91818a1a9dfe.png)
