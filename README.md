@@ -101,6 +101,7 @@ c. change the pods number from 3 into 2 in Yaml file of Kubernetes engine
 d. expose(no need to expose data-node)
  ![image](https://user-images.githubusercontent.com/89753601/143795579-86982859-4791-46f5-ac34-f2cb66af19ba.png)
 ![image](https://user-images.githubusercontent.com/89753601/144751605-ac7b1956-7ae4-483d-942e-a20a6a6774f4.png)
+<img width="1033" alt="Services" src="https://user-images.githubusercontent.com/89753601/144751849-53d2c028-a252-479e-a327-d6134909c626.png">
 
 
 ### Deploy SonarCube
@@ -116,6 +117,8 @@ d. expose(no need to expose data-node)
 ![image](https://user-images.githubusercontent.com/89753601/143808807-eea9dbbe-c9a7-4621-b1fd-91818a1a9dfe.png)
 ![image](https://user-images.githubusercontent.com/89753601/143808824-e385f3d9-55b4-4778-9c7b-c7abe36ff661.png)
 ![image](https://user-images.githubusercontent.com/89753601/143808846-2fae2720-e261-4434-9525-a8fabfd699e0.png)
+![image](https://user-images.githubusercontent.com/89753601/144752032-91fd5d0d-b7d9-44e3-905d-1eea5fbddf36.png)
+
 
 
        
