@@ -60,6 +60,8 @@ https://hub.docker.com/r/mingruoqu/toolbox_application
  - create service, expose, and set IP port 8080:8080
  ![image](https://user-images.githubusercontent.com/89753601/143789031-c6c55b79-d378-40a8-bd79-6f8e8e96b1e0.png)
 ![image](https://user-images.githubusercontent.com/89753601/143791382-e1991a7f-f5dc-490f-a3d8-521b1e81110a.png)
+![image](https://user-images.githubusercontent.com/89753601/144751585-8b0ee08b-f5c8-4e7d-b16e-961b994949f3.png)
+
 
  - deployment:
  `docker pull jupyter/base-notebook`
@@ -78,7 +80,8 @@ https://hub.docker.com/r/mingruoqu/toolbox_application
  `docker push gcr.io/big-data-processing-tool-box/bde2020/hadoop-namenode`  
  ![image](https://user-images.githubusercontent.com/89753601/143793896-b67947a6-4800-4e14-bfaa-fd5fd9ece255.png)
 b. deploy namenode to GKE first.  
-add environmental virables: fill in 'CLUSTER_NAME=test' from docker-compose.yml and first 9 lines from hadoop.env. You can find those 2 files from Hadoop directory.   c. change the pods number from 3 into 1 in Yaml file of Kubernetes engine
+add environmental virables: fill in 'CLUSTER_NAME=test' from docker-compose.yml and first 9 lines from hadoop.env. You can find those 2 files from Hadoop directory.   
+c. change the pods number from 3 into 1 in Yaml file of Kubernetes engine
  ![image](https://user-images.githubusercontent.com/89753601/143795402-b3d93d2c-a1db-4c80-866d-39f70f364889.png)
 d. expose
  ![image](https://user-images.githubusercontent.com/89753601/143795579-86982859-4791-46f5-ac34-f2cb66af19ba.png)
@@ -97,6 +100,8 @@ c. change the pods number from 3 into 2 in Yaml file of Kubernetes engine
  ![image](https://user-images.githubusercontent.com/89753601/143795402-b3d93d2c-a1db-4c80-866d-39f70f364889.png)
 d. expose(no need to expose data-node)
  ![image](https://user-images.githubusercontent.com/89753601/143795579-86982859-4791-46f5-ac34-f2cb66af19ba.png)
+![image](https://user-images.githubusercontent.com/89753601/144751605-ac7b1956-7ae4-483d-942e-a20a6a6774f4.png)
+
 
 ### Deploy SonarCube
 `docker pull sonarqube`  
